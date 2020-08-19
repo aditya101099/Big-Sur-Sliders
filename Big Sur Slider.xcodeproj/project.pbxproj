@@ -9,21 +9,24 @@
 /* Begin PBXBuildFile section */
 		484E70F624ECBFB9001A1FB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484E70F524ECBFB9001A1FB6 /* AppDelegate.swift */; };
 		484E70F824ECBFB9001A1FB6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484E70F724ECBFB9001A1FB6 /* SceneDelegate.swift */; };
-		484E70FA24ECBFB9001A1FB6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484E70F924ECBFB9001A1FB6 /* ContentView.swift */; };
-		484E70FC24ECBFB9001A1FB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 484E70FB24ECBFB9001A1FB6 /* Assets.xcassets */; };
 		484E70FF24ECBFB9001A1FB6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 484E70FE24ECBFB9001A1FB6 /* Preview Assets.xcassets */; };
 		484E710224ECBFB9001A1FB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 484E710024ECBFB9001A1FB6 /* LaunchScreen.storyboard */; };
+		484E710A24ECBFF3001A1FB6 /* DemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484E710924ECBFF3001A1FB6 /* DemoView.swift */; };
+		484E710C24ECC00C001A1FB6 /* BigSurSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484E710B24ECC00C001A1FB6 /* BigSurSlider.swift */; };
+		484E710F24ECC028001A1FB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 484E710E24ECC028001A1FB6 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		484E70F224ECBFB9001A1FB6 /* Big Sur Slider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Big Sur Slider.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		484E70F524ECBFB9001A1FB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		484E70F724ECBFB9001A1FB6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		484E70F924ECBFB9001A1FB6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		484E70FB24ECBFB9001A1FB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		484E70FE24ECBFB9001A1FB6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		484E710124ECBFB9001A1FB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		484E710324ECBFB9001A1FB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		484E710924ECBFF3001A1FB6 /* DemoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoView.swift; sourceTree = "<group>"; };
+		484E710B24ECC00C001A1FB6 /* BigSurSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BigSurSlider.swift; sourceTree = "<group>"; };
+		484E710D24ECC012001A1FB6 /* Big Sur Slider.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Big Sur Slider.entitlements"; sourceTree = "<group>"; };
+		484E710E24ECC028001A1FB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +59,14 @@
 		484E70F424ECBFB9001A1FB6 /* Big Sur Slider */ = {
 			isa = PBXGroup;
 			children = (
+				484E710D24ECC012001A1FB6 /* Big Sur Slider.entitlements */,
 				484E70F524ECBFB9001A1FB6 /* AppDelegate.swift */,
 				484E70F724ECBFB9001A1FB6 /* SceneDelegate.swift */,
-				484E70F924ECBFB9001A1FB6 /* ContentView.swift */,
-				484E70FB24ECBFB9001A1FB6 /* Assets.xcassets */,
+				484E710924ECBFF3001A1FB6 /* DemoView.swift */,
+				484E710B24ECC00C001A1FB6 /* BigSurSlider.swift */,
 				484E710024ECBFB9001A1FB6 /* LaunchScreen.storyboard */,
 				484E710324ECBFB9001A1FB6 /* Info.plist */,
+				484E710E24ECC028001A1FB6 /* Assets.xcassets */,
 				484E70FD24ECBFB9001A1FB6 /* Preview Content */,
 			);
 			path = "Big Sur Slider";
@@ -134,8 +139,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				484E710224ECBFB9001A1FB6 /* LaunchScreen.storyboard in Resources */,
+				484E710F24ECC028001A1FB6 /* Assets.xcassets in Resources */,
 				484E70FF24ECBFB9001A1FB6 /* Preview Assets.xcassets in Resources */,
-				484E70FC24ECBFB9001A1FB6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,9 +151,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				484E710C24ECC00C001A1FB6 /* BigSurSlider.swift in Sources */,
 				484E70F624ECBFB9001A1FB6 /* AppDelegate.swift in Sources */,
+				484E710A24ECBFF3001A1FB6 /* DemoView.swift in Sources */,
 				484E70F824ECBFB9001A1FB6 /* SceneDelegate.swift in Sources */,
-				484E70FA24ECBFB9001A1FB6 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +290,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Big Sur Slider/Big Sur Slider.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Big Sur Slider/Preview Content\"";
 				DEVELOPMENT_TEAM = 2Z87DB2Y72;
@@ -295,6 +303,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.aditya.Big-Sur-Slider";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -304,6 +313,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Big Sur Slider/Big Sur Slider.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Big Sur Slider/Preview Content\"";
 				DEVELOPMENT_TEAM = 2Z87DB2Y72;
@@ -315,6 +326,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.aditya.Big-Sur-Slider";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
