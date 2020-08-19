@@ -103,6 +103,7 @@ struct DemoView: View {
 struct DemoView_Previews: PreviewProvider {
     static var previews: some View {
         DemoView()
+            .previewDevice(PreviewDevice(rawValue: "iPad8,1"))
 
 
     }

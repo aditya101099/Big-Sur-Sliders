@@ -57,6 +57,7 @@ struct BigSurSlider: View {
                 .onChanged({ value in
                     self.percentage = min(max(0, Float(value.location.x / geometry.size.width * 100)), 100)
                 }))
+            .animation(.easeOut)
                 
 
         }.frame(width: CGFloat(sliderWidth), height: CGFloat(sliderHeight))
