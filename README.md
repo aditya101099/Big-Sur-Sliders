@@ -6,12 +6,12 @@
 Inspired by the sliders in the new Control Center in macOS Big Sur, Big Sur Sliders is an easy way to implement beautiful sliders in your app that reflect the evolving design of macOS.
 
 # Table of Contents
-* [Introduction]()
-* [Usage]()
-* [Technologies]()
-* [Requirements]()
-* [Status]()
-* [Acknowledgements]()
+* [Introduction](https://github.com/aditya101099/Big-Sur-Slider#introduction)
+* [Usage](https://github.com/aditya101099/Big-Sur-Slider#usage)
+* [Technologies](https://github.com/aditya101099/Big-Sur-Slider#technologies)
+* [Requirements](https://github.com/aditya101099/Big-Sur-Slider#requirements)
+* [Status](https://github.com/aditya101099/Big-Sur-Slider#status)
+* [Acknowledgements](https://github.com/aditya101099/Big-Sur-Slider#acknowledgements)
 
 ## Introduction
 
